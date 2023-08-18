@@ -61,3 +61,13 @@ function rhombusCalculate() {
     const area = 0.5 * side1 * side2;
     areaResult('rhombus-result', area);
 }
+
+// ........ pentagon........ 
+
+function pentagonCalculate() {
+    const pside = fistCalculateArea('p-input');
+    const bside = fistCalculateArea('b-input');
+
+    const area = 0.5 * pside * bside;
+    areaResult('pentagon-result', area);
+}

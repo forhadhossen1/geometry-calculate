@@ -122,6 +122,32 @@
                     </div>
                 </div>
 
+                <!-- .............pentagon card.........  -->
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/pentagon.png" alt="Shoes" class="" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title text-2xl font-bold">Pentagon</h2>
+                        <p>Area (A) = 0.5 x p x b </p>
+                        <!-- ...p input..  -->
+                        <p class="text-lg py-4">
+                            <input id="p-input" class="border rounded-md bg-gray-300 w-24 p-2 mr-2"
+                                placeholder="p" type="text"> <span>cm</span>
+
+                            <!-- ... b side input ..  -->
+
+                            <input id="b-input" class="border rounded-md bg-gray-300 w-24 p-2 ml-2"
+                                placeholder="b" type="text"> <span>cm</span>
+                        </p>
+                        <p class="text-lg font-bold">Area : <span id="pentagon-result">0</span>cm <sup>2</sup></p>
+
+                        <div class="card-actions py-4">
+                            <button onclick="pentagonCalculate()" id="pentagon-btn" class="btn btn-primary">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+
 
             </div>
 
