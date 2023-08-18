@@ -71,3 +71,13 @@ function pentagonCalculate() {
     const area = 0.5 * pside * bside;
     areaResult('pentagon-result', area);
 }
+
+// ......... ellipse...... 
+
+function ellipseCalculate() {
+    const aside = fistCalculateArea('a-input');
+    const bside = fistCalculateArea('ab-input')
+    const area = 3.1416 * aside * bside;
+    const areaTwoDesit = area.toFixed(2);
+    areaResult('ellipse-result', areaTwoDesit)
+}

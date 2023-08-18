@@ -19,7 +19,7 @@
             <div class="flex-1 grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
 
                 <!-- ....Triangle card....  -->
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <div class="card bg-base-100 shadow-xl">
                     <figure class="px-10 pt-10">
                         <img src="./images/triangle.png" alt="Shoes" class="" />
                     </figure>
@@ -45,7 +45,7 @@
                 </div>
 
                 <!-- ..........Rectangle card......  -->
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <div class="card bg-base-100 shadow-xl">
                     <figure class="px-10 pt-10">
                         <img src="./images/rectangle.png" alt="Shoes" class="" />
                     </figure>
@@ -71,7 +71,7 @@
                 </div>
 
                 <!-- ...........parallelogram card ........  -->
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <div class="card bg-base-100 shadow-xl">
                     <figure class="px-10 pt-10">
                         <img src="./images/parallelogram.png" alt="Shoes" class="" />
                     </figure>
@@ -97,7 +97,7 @@
                 </div>
 
                 <!-- ...........rhombus card.........  -->
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <div class="card bg-base-100 shadow-xl">
                     <figure class="px-10 pt-10">
                         <img src="./images/rhombus.png" alt="Shoes" class="" />
                     </figure>
@@ -123,7 +123,7 @@
                 </div>
 
                 <!-- .............pentagon card.........  -->
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <div class="card bg-base-100 shadow-xl">
                     <figure class="px-10 pt-10">
                         <img src="./images/pentagon.png" alt="Shoes" class="" />
                     </figure>
@@ -148,6 +148,31 @@
                     </div>
                 </div>
 
+                <!-- .......ellipse card........  -->
+                <div class="card bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/ellipse.png" alt="Shoes" class="" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title text-2xl font-bold">Ellipse</h2>
+                        <p>Area (A) = πab</p>
+                        <!-- ...a input..  -->
+                        <p class="text-lg py-4">
+                            <input id="a-input" class="border rounded-md bg-gray-300 w-24 p-2 mr-2"
+                                placeholder="a" type="text"> <span>cm</span>
+
+                            <!-- ... b side input ..  -->
+
+                            <input id="ab-input" class="border rounded-md bg-gray-300 w-24 p-2 ml-2"
+                                placeholder="b" type="text"> <span>cm</span>
+                        </p>
+                        <p class="text-lg font-bold">Area : <span id="ellipse-result">0</span>cm <sup>2</sup></p>
+
+                        <div class="card-actions py-4">
+                            <button onclick="ellipseCalculate()" id="ellipse-btn" class="btn btn-primary">Calculate</button>
+                        </div>
+                    </div>
+                </div>
 
             </div>
 
