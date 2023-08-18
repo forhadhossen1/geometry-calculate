@@ -51,3 +51,13 @@ function parallelogramCalculate(){
     const area = base * height;
     areaResult('parallelogram-result', area);
 }
+
+// ...... rhombus..... 
+
+function rhombusCalculate() {
+    const side1 = fistCalculateArea('1side-input');
+    const side2 = fistCalculateArea('2side-input');
+
+    const area = 0.5 * side1 * side2;
+    areaResult('rhombus-result', area);
+}

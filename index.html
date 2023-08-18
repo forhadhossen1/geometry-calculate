@@ -96,6 +96,32 @@
                     </div>
                 </div>
 
+                <!-- ...........rhombus card.........  -->
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/rhombus.png" alt="Shoes" class="" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title text-2xl font-bold">Rhombus</h2>
+                        <p>Area (A) = 0.5 x b<sub>1</sub> x b<sub>2</sub></p>
+                        <!-- ...1 arm side input..  -->
+                        <p class="text-lg py-4">
+                            <input id="1side-input" class="border rounded-md bg-gray-300 w-24 p-2 mr-2"
+                                placeholder="arm 1" type="text"> <span>cm</span>
+
+                            <!-- ... 2 arm side input ..  -->
+
+                            <input id="2side-input" class="border rounded-md bg-gray-300 w-24 p-2 ml-2"
+                                placeholder="arm 2" type="text"> <span>cm</span>
+                        </p>
+                        <p class="text-lg font-bold">Area : <span id="rhombus-result">0</span>cm <sup>2</sup></p>
+
+                        <div class="card-actions py-4">
+                            <button onclick="rhombusCalculate()" id="rhombus-btn" class="btn btn-primary">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+
 
             </div>
 
