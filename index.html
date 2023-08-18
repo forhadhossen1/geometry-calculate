@@ -70,6 +70,32 @@
                     </div>
                 </div>
 
+                <!-- ...........parallelogram card ........  -->
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/parallelogram.png" alt="Shoes" class="" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title text-2xl font-bold">Parallelogram</h2>
+                        <p>Area (A) = b x h</p>
+                        <!-- ...base input..  -->
+                        <p class="text-lg py-4">
+                            <input id="pbase-input" class="border rounded-md bg-gray-300 w-24 p-2 mr-2"
+                                placeholder="base" type="text"> <span>cm</span>
+
+                            <!-- ... height input ..  -->
+
+                            <input id="pheight-input" class="border rounded-md bg-gray-300 w-24 p-2 ml-2"
+                                placeholder="height" type="text"> <span>cm</span>
+                        </p>
+                        <p class="text-lg font-bold">Area : <span id="parallelogram-result">0</span>cm <sup>2</sup></p>
+
+                        <div class="card-actions py-4">
+                            <button onclick="parallelogramCalculate()" id="parallelogram-btn" class="btn btn-primary">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+
 
             </div>
 

@@ -6,6 +6,8 @@ function fistCalculateArea(inputId){
     return inputTextNumber;
 }
 
+///////// duita function  ake a jonno j kono akta function k duita input a call kora jabe tatei kaj korbe amra duita darao call korse akta darrao call korse..
+
 function secondCalculateArea(inputId){
     const inputText = document.getElementById(inputId);
     const inputTextString = inputText.value;
@@ -38,4 +40,14 @@ function rectangleCalculate(){
 
     const area = weight * length;
     areaResult('rectangle-result', area)
+}
+
+// ....... parallelogram ...... 
+
+function parallelogramCalculate(){
+    const base = fistCalculateArea('pbase-input');
+    const height = fistCalculateArea('pheight-input');
+
+    const area = base * height;
+    areaResult('parallelogram-result', area);
 }
