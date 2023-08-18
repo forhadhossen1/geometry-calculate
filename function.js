@@ -29,3 +29,13 @@ document.getElementById('triangle-btn').addEventListener('click', function(){
     const area = 0.5 * base * height;
     areaResult('triangle-result', area);
 })
+
+//........rectangle........
+
+function rectangleCalculate(){
+    const weight = fistCalculateArea('weight-input');
+    const length = secondCalculateArea('length-input');
+
+    const area = weight * length;
+    areaResult('rectangle-result', area)
+}
